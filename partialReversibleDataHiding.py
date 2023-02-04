@@ -6,7 +6,7 @@ import random
 sys.setrecursionlimit(10**6)
 
 
-img = cv2.imread(r"C:\Users\anumo\Desktop\miniproject\anu.png")
+img = cv2.imread(r"C:\Users\anumo\Desktop\miniproject\img.png")
 cv2.imshow("original image",img)
 img = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
 img1=img.copy()
